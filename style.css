@@ -1,0 +1,354 @@
+* {
+    margin:0;
+    padding:0;
+}
+a, p, h1 {
+    text-decoration: none;/* добавление к тексту какой либо элемент декора, например подчёркивание, надчёркивание и перечёркивание*/
+    font-family: Arial;
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+.logo {
+    width: 340px;
+}
+header {
+    background-color: #000; /*цвет фона*/
+    padding: 0px 100px 10px 100px;/*отступы */
+}
+.nav_text {
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 40px;  
+    vertical-align:middle;
+}
+header ul {
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    display: block;
+}
+li {
+    list-style: none;
+}   
+header li {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+
+}
+.li_short {
+    width: 320px;
+}
+.icon_header {
+    margin-top: -40px;
+    vertical-align:middle;
+    width: 54px;
+}
+.block {
+    padding: 50px 80px; /*отступы */
+    color: #000;
+    display: flex;
+    justify-content: space-between;/* данная функция определяет, как браузер распределяет 
+    пространство между и вокруг элементов контента*/
+    flex-wrap: wrap;
+}
+.block_border {
+    padding: 50px 80px; /*отступы */
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+.managers_block {
+    padding: 50px 80px; /*отступы */
+    color: #000;
+}
+.block_color {
+    background-color: #30a4ab;/*цвет фона*/
+    display: flex;
+    justify-content: space-between; /* данная функция определяет, как браузер распределяет 
+    пространство между и вокруг элементов контента*/
+    padding: 80px 30px;
+}
+.text_blocks {
+    width: 220px;
+    margin: 20px auto;
+}
+.text_blocks .title {
+    font-weight: 500;
+    font-size: 18px;
+}
+.flex {
+    display: flex;
+}
+.space {
+    display: flex;
+    justify-content: space-between; /* данная функция определяет, как браузер распределяет 
+    пространство между и вокруг элементов контента*/
+}
+.text_block {
+    width: 50%;
+}
+.products {
+    width:  200px;
+    margin: 0px 40px 50px;
+}
+.products p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.product_img {
+    width: 200px;
+    height: 300px;
+    max-width: 100%;
+}
+.img_center {
+    max-width: 100%;
+    display: block;
+    margin: auto auto; 
+    position: relative;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    transform: translateY(-50%);
+}
+.managers_block .title_block {
+    color:  #000;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.managers_block .text_block_manager {
+    color:  #000;
+    text-align: center;
+    font-size: 20px;
+
+}
+.card_managers .title_name {
+    color:  #000;
+    text-align: center; 
+    font-size: 20px;
+}
+.card_managers .title {
+    color:  #000;
+    text-align: center; 
+    font-size: 13px;
+    text-transform: uppercase ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card_managers {
+    margin-top: 80px;
+}
+.manager_img {
+    width: 400px;
+    height: 600px;
+    max-width: 100%;
+}
+.request {
+    margin-top: 40px;
+    font-family: Arial;
+    color: #fff;
+    background-color: #30a4ab;/*цвет фона*/
+    width: 180px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 20px;
+    padding-top:auto;
+    border: 1px solid #707070;
+    cursor: pointer;cursor:pointer;/*изменения внешнего вида курсора мыши при наведении на элемент*/
+}
+.center_div{
+    width: 180px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #30a4ab;/*цвет фона*/
+    padding: 100px 180px 60px;/*отступы */
+    display: flex;
+    justify-content: space-between; /* данная функция определяет, как браузер распределяет 
+    пространство между и вокруг элементов контента*/
+}
+nav .text {
+    line-height: 40px;
+}
+.soc_icons {
+    width: 70px;
+}
+footer .flex {
+    margin-top: 120px;
+}
+.block_border p {
+    color: #000;
+}
+.about_img {
+    width: 500px;
+}
+.map_img {
+    width: 100%;
+}
+.title_about {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.categories .title {
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.categories .text {
+    border-bottom: 1px solid #30a4ab;
+    line-height: 50px;
+    color: #000;
+}
+.text_block_second {
+    width: 420px;
+    margin-left: 40px;
+}
+.sale_img {
+    margin: 40px 20px 0 0;
+    width: 380px;
+    height: 200px;
+    max-width: 100%;
+}
+.sale_text p{
+    margin-top: 80px;
+    font-size: 18px;
+    color: #000;
+    width: 160px;
+}
+.nav_blocks {
+
+}
+.nav_blocks .nav_text {
+    text-align: left;
+    font-size: 14px;
+    width: 160px;
+    line-height: 20px;
+    margin-bottom: 10px;
+} 
+.nav_blocks .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+.nav_blocks nav {
+}
+.nav_blocks li {
+    margin-right: 100px;
+}
+.nav_blocks ul {
+    height: 200px;
+    display: flex;
+}
+.garant {
+    width: 400px;
+}
+.garant .title {
+    color:  #fff;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.reg {
+    width: 600px;
+    height: 600px;
+    background-color: #30a4ab;/*цвет фона*/
+}
+.reg .title {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.reg .text {
+    text-align: left;
+}
+.reg .submit {
+    padding: 4px 14px; /*отступы */
+    background-color: #fff;/*цвет фона*/
+    color:#30a4ab;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    cursor:pointer;cursor:pointer;/*изменения внешнего вида курсора мыши при наведении на элемент*/
+    outline: none;
+}
+.reg .insert {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.reg form {
+    margin-bottom: 40px;
+} 
+#zatemnenie_reg,#zatemnenie_rege, #zatemnenie_ques {
+    background: rgba(102, 102, 102, 0.7);/*цвет фона*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+
+#okno_1.reg {
+    width: 300px;
+    height: 800px;
+    background: #30a4ab;/*цвет фона*/
+    text-align: center;
+    padding: 15px 80px 200px; /*отступы */
+    border-radius: 0px;
+    margin: auto;
+    }
+    #okno_2.reg {
+        width: 300px;
+        height: 800px;
+        background: #30a4ab;/*цвет фона*/
+        text-align: center;
+        padding: 15px 80px 200px; /*отступы */
+        border-radius: 0px;
+        margin: auto;
+        }
+#okno_3.reg {
+    width: 300px;
+    height: 800px;
+    background: #30a4ab;/*цвет фона*/
+    text-align: center;
+    padding: 15px 80px 200px;
+    border-radius: 0px;
+    margin: auto;
+    }
+    
+#zatemnenie_reg:target,#zatemnenie_rege:target, #zatemnenie_ques:target {display: block;}
+    .close {
+    display: inline-block;
+    border: 1px solid #30a4ab;
+    color: #30a4ab;
+    padding: 3px 12px; /*отступы */
+    margin: 10px;
+    text-decoration: none;/* добавление к тексту какой либо элемент декора, например подчёркивание, надчёркивание и перечёркивание*/
+    background: #f2f2f2;/*цвет фона*/
+    font-size: 12px;
+    cursor:pointer;/*изменения внешнего вида курсора мыши при наведении на элемент*/
+    }
+
+.insert_text{
+    text-align: left;
+    font-size: 10px;
+}
+.sc {
+    width: 40px;
+}
